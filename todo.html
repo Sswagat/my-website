@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ToDo</title>
+    <link rel="stylesheet" href="./../../bs/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+</head>
+<body>
+    <section class = "container-fluid mt-3">
+        <div class="row">
+            <div class="col-5 m-auto">
+                <div class="card">
+                    <div class="card-header bg-dark ">
+                        <!-- only for heading h2 is used -->
+                        <h2 class="text-white text-center">TODO LIST</h2>
+                    </div>
+                    <div class = "card-body">
+                        <form id="task-form">
+                            <div class="form-group mb-3" >
+                                <input type="text" placeholder="Enter your Task" class="form-control" id="task-el">
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" class="btn btn-dark btn-md" value="Add Task">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class = "container-fluid mt-3">
+        <div class="row">
+            <div class="col-5 m-auto">
+                <div class="card">
+                    <div class = "card-body">
+                        <!-- Showing task from input ol list -->
+                        <ol class="list-group" id="task-list-el">
+                            <!-- <li class="list-group-item list-group-item-secondary mb-2">
+                                <span >Practice Coding</span>
+                                <i class="bi bi-trash-fill float-end "></i>
+                                <i class="bi bi-pencil-square float-end me-3"></i>
+                                
+                            </li>
+                            <li class="list-group-item list-group-item-secondary mb-2">
+                                <span>Practice Coding</span>
+                                <i class="bi bi-trash-fill float-end"></i>
+                                <i class="bi bi-pencil-square float-end me-3"></i>
+                                
+                            </li> -->
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer style="margin-bottom: 500px;"></footer>
+    <script src="./todo.js"></script>
+</body>
+</html>
